@@ -1,7 +1,44 @@
-# Buffer-7.0
-The themes for Buffer 7.0 are -
+# 🍽️ Canteen Queue Management System
 
-1. Enterprise Systems & Process Optimization
-2. GreenTech
-3. Cybersecurity and Digital Defense
-4. Open Innovation
+## Team Members
+- Rujula Biranje (Mech)
+- Priya Kulkarni (Instru)
+- Shreeya Joshi (IT)
+- Pooja Kawate (IT)
+
+## Theme
+Enterprise Systems & Process Optimization
+
+## Project Description
+A smart canteen queue management system that calculates 
+waiting time for each customer based on pending orders 
+and food preparation time.
+
+## Features
+- 🔐 Role-based login (Admin & User)
+- ⏱️ Real-time waiting time calculation
+- 📦 Stock availability tracking
+- 🗳️ Admin voting polls for unavailable items
+- 📋 Order queue management with Priority Queue (VIP)
+
+## DSA Concepts Used
+| Feature | DSA Used |
+|---|---|
+| Order Queue | Min-Heap Priority Queue |
+| Stock Check | Hash Map |
+| Wait Time | Prefix Sum |
+| Poll Votes | Hash Map + Set |
+
+## Tech Stack
+- Backend: Deno + TypeScript + Supabase
+- Frontend: React + Vite + Tailwind CSS
+
+## How to Run
+### Backend
+cd calculate-queue
+deno task start
+
+### Frontend
+cd canteen-frontend
+npm install
+npm run dev
